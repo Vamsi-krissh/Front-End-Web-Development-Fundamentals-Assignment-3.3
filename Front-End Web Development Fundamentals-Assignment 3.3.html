@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title></title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <style>
+
+            body{
+background-image: url(Images/form.jpg);
+            }
+        form div{
+
+border: 1px solid black;
+padding: 10px;
+width: 300px;
+margin-bottom:5px;
+border-radius: 5px;
+
+ background-color: #ffffff;
+
+
+        }
+
+        h3{
+        color: white;   
+            }
+
+#submit{
+
+    background-color: black;
+    border-radius: 5px;
+    color: white;
+    width: 150px;
+    margin-left: 15px;
+}
+
+input{
+
+margin-left: 10px;
+
+}
+
+#Card{
+
+    margin-left: 5px;
+}
+        </style>
+
+    
+    
+    
+    </head>
+
+
+    <body>
+    
+<form >
+    <h3>Step1 Your Details</h3>
+<div> Name: <input type="text" id="FirstName" name="FirstName" placeholder="First name"></div>
+<div>Email: <input type="email" id="email" name="email" placeholder="example@example.com"></div>
+<div>Phone: <input type="tel" id="tel" name="tel" placeholder="eg:9056542554"></div>
+
+
+<h3>Step2 Adress</h3>
+<div> Adress: <textarea rows="5" cols="2" style="width: 300px;"></textarea></div>
+<div>Postcode: <input type="text" id="Postcode" name="Postcode" placeholder="pincode"></div>
+<div>Country: <input type="Country" id="Country" name="Country" placeholder="India"></div>
+
+<h3>Step3 Card Detais</h3>
+
+<div> <p style="margin: 0px;">Card Type</p>  <input type="radio" name="Visa" value="Visa" checked> Visa
+  <input type="radio" name="Amex" value="Amex"> Amex
+  <input type="radio" name="Mastercard" value="other"> Mastercard</div>
+
+  <div>Card Number: <input type="text" id="Number" name="Number" placeholder=""></div>
+<div>SecurityCode: <input type="password" id="Security" name="Security" placeholder=""></div>
+<div>Name on Card: <input type="text" id="Card" name="Card" placeholder="Exact name on card"></div>
+<input id ='submit' type="submit" value="Buyit">
+
+</form>
+    </body>
+</html>
